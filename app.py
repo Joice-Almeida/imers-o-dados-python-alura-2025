@@ -14,7 +14,7 @@ st.set_page_config(
     layout = "wide"
 )
 
-df = pd.read_csv(r"C:\Users\joice\OneDrive\Documentos\aula 04 - alura\dados-imersao-final.csv")
+df = pd.read_csv("dados-imersao-final.csv")
 
 # --- Barra Lateral (Filtros) ---
 
